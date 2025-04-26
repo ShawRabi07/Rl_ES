@@ -14,6 +14,7 @@ plt.rcParams['figure.figsize'] = (10, 6)
 df = pd.read_csv("C:\\Users\\ASUS\\Downloads\\Real_Estate_Sales_2001-2022_GL.csv", low_memory=False)
 
 
+
 Display the first few rows and missing value counts to understand data structure
 print(df.head())
 print(df.isnull().sum())
