@@ -19,8 +19,6 @@ Display the first few rows and missing value counts to understand data structure
 print(df.head())
 print(df.isnull().sum())
 
-
-
 # Convert 'Date Recorded' to datetime and extract year and month for temporal analysis
 df["Date Recorded"] = pd.to_datetime(df["Date Recorded"], errors='coerce')
 df["Year Recorded"] = df["Date Recorded"].dt.year
