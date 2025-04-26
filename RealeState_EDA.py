@@ -10,8 +10,6 @@ sns.set_theme(style="whitegrid", palette="deep")
 plt.rcParams['font.size'] = 12
 plt.rcParams['figure.figsize'] = (10, 6)
 
-
-
 # Load the real estate dataset, disabling low-memory mode to handle mixed data types
 df = pd.read_csv("C:\\Users\\ASUS\\Downloads\\Real_Estate_Sales_2001-2022_GL.csv", low_memory=False)
 
